@@ -1,0 +1,31 @@
+### GET request to example server
+GET http://localhost:8080/pet/5050d65f-97d8-446d-8533-44dec6b4f93c
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+
+{
+  "id": "86aca205-6036-4dfd-b1db-5548df110343",
+  "name": "Katy Purry",
+  "type": "cat",
+  "color": "black",
+  "parents": {
+    "mother": "86aca205-6036-4dfd-b1db-5548df110343",
+    "father": "86aca205-6036-4dfd-b1db-5548df110343"
+  }
+}
+###
+PUT http://localhost:8080/pet/202189f8-90d2-4445-9c9b-504d2078e505
+Content-Type: application/json
+
+{
+  "id": "3f4c84a7-a93c-477a-b854-cb5ef045f02d",
+  "name": "Katy h",
+  "type": "cat",
+  "color": "black",
+  "parents": {
+    "mother": "3f4c84a7-a93c-477a-b854-cb5ef045f02d",
+    "father": "3f4c84a7-a93c-477a-b854-cb5ef045f02d"
+  }
+}

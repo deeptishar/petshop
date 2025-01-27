@@ -1,0 +1,3 @@
+INSERT INTO pet (id, name, type, color)VALUES ('123db6b1-60c3-44d6-b30d-baa0ca2fa132','test-name1', 'cat', 'black');
+INSERT INTO pet (id, name, type, color, mother_id)VALUES ('456db6b1-60c3-44d6-b30d-baa0ca2fa132','test-name2', 'dog', 'brown', '123db6b1-60c3-44d6-b30d-baa0ca2fa132');
+INSERT INTO pet (id, name, type, color, mother_id, father_id)VALUES ('789db6b1-60c3-44d6-b30d-baa0ca2fa132','test-name3', 'cow', 'white', '123db6b1-60c3-44d6-b30d-baa0ca2fa132', '456db6b1-60c3-44d6-b30d-baa0ca2fa132');
